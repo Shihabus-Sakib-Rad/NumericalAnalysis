@@ -23,12 +23,15 @@ def get_xr(xl, xu):
 def main():
     xl = 1
     xu = 10
+    iterations = 10
+
+
     xr = get_xr(xl, xu)
     
     stringh = ("{:^7}\t\t"*7).format('xl', 'xu', 'xr', 'error', 'fxl', 'fxu', 'fxr')
     print(stringh)
     
-    for i in range(7):
+    for i in range(iterations):
         xr_old = xr
         xr = round(get_xr(xl, xu), 5)
         
