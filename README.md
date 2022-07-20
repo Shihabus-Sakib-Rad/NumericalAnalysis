@@ -1,6 +1,7 @@
-These are the codes I had written while learning Numerical Analysis. Various algorithms were implemented in Python and MATLAB.
+### Numerical Iterator
+A collection of python scripts to show the iteration process for various algorithms from Numerical Analysis like bisection, False position, Fixed Point iteration, Newton – Raphson, secant, golden search etc.
 
-Example:
+### Example Usage:
 
 Bisection method (bisection.py)
 > x^3 - 2x - 5
